@@ -5,6 +5,7 @@
   <div class="container">
 
     <div class="content">
+
 <!--     1st Div -->		
 		<div class="quarter">
 			<h3 class="beansTitle">Malapascua</h3>
@@ -51,6 +52,9 @@
 
     <?php //get_sidebar(); ?>
 
+
+    <?php //get_sidebar(); ?>
+    <?php //get_template_part( 'loop', 'index' );	?>
   </div> <!-- /.container -->
 </div> <!-- /.main -->
 

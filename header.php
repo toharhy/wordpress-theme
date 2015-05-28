@@ -11,15 +11,13 @@
   <?php // Load our CSS ?>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css" />
 
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+
 
   <?php wp_head(); ?>
 </head>
 
 
 <body <?php body_class(); ?>>
-
-
 
 <!-- <header>
   <div class="container">
@@ -33,66 +31,52 @@
       'container' => false,
       'theme_locations' => 'primary'
     )); ?>
-  </div>  /.container
-</header> -->
-<!--/.header--> 
+<<<<<<< HEAD
+  </div> <!-- /.container -->
+<!-- </header> -->
 
+              <!-- Nav -->
+      <div class="navFull">
+          <div class="navLeft">
 
-  <div id="header-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="12u">
+              <?php wp_nav_menu(array(
+                  'container' => 'nav',
+                  'container_id'=> 'nav',
+                  'theme_location'=>'primary'
+                  )); ?>
+              <!-- nav left -->  
+          </div>
 
-              <!-- Header -->
-    <header id="header">
-      <div class="inner">
+              <!-- Logo -->
+          <div class="navMiddle">
+            <h1><a href="<?php echo home_url(); ?>" id="logo"><?php bloginfo('name'); ?></a></h1>
+          </div>
+              <!-- nav right -->
+          <div class="navRight">
+          <?php wp_nav_menu(array(
+                  'container' => 'nav',
+                  'container_id'=> 'nav',
+                  'theme_location'=>'primary'
+                  )); ?>
+          </div>
+      </div>
+              <!-- nav end -->
 
-                    <!-- Logo -->
-                     
-
-                    <!-- Nav -->
-                     
-
-<!--              Nav left -->
-        <div class="navFull">
-              <div class="navLeft">
-                <?php wp_nav_menu(array(
-                        'container' => 'nav',
-                        'container_id'=>'nav',
-                        'theme_location'=>'primary'
-                        )); ?>
+              <div class="banner">
+                <img src="" alt="">
               </div>
 
-              <!-- Logo --> 
-                    <div class="navMiddle">
-                      <h1><a href="<?php echo home_url(); ?>" id="logo"><?php bloginfo('name'); ?></a></h1>
-                    </div>
- <!--              Nav right -->
-            <div class="navRight">
-             <?php wp_nav_menu(array(
-                        'container' => 'nav',
-                        'container_id'=>'nav',
-                        'theme_location'=>'primary'
-                        )); ?>
-            </div>
-        </div>
-<!-- Nav End -->  
-         <div class="banner">
-            <img src="" alt="">
-         </div>
-<!-- Banner End-->
-          <div class="overlay">
-            <h1>Johar & Co.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, temporibus.</p>
-            <button>See Menu</button>
-          </div>
+              <div class="overlay">
+                <h1>Johar & Co.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <button>See Menu</button>
+              </div>
+
+
+  </div>
+</header>
 
       </div>
-  </header>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-
+    </div>
+  </div>
+</div>
