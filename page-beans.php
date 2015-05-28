@@ -2,8 +2,20 @@
 
 <div class="main">
   <div class="container">
-  <p>Editing page.php</p>
-    <div class="content">
+    <div class="content beansPage">
+
+<!--     First Row begin-->        
+        <div class="rowBeans">
+              <div class="triple">
+                <img src="" alt="">
+                <h3 class="beansTitle">Beans Title</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+        </div>
+
+
+
+
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
