@@ -9,7 +9,7 @@
           <img src="" alt="">
         </div>
         <div class="six">
-          <h3 class="storyTitle">Title here</h3>
+          <h3 class="storyTitle"> <?php the_title() ?></h3>
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsum dolorum necessitatibus! Nobis veritatis quis aperiam officia reprehenderit magni officiis eligendi odit, iusto quaerat voluptas culpa. Laborum ut odio vero.</p>
         </div>
 

@@ -35,17 +35,6 @@
   </div> <!-- /.container -->
 <!-- </header> -->
 
-<div id="header-wrapper">
-  <div class="container">
-    <div class="row">
-      <div class="12u">
-
-        <!-- Header -->
-<header id="header">
-  <div class="inner">
-
-              
-
               <!-- Nav -->
       <div class="navFull">
           <div class="navLeft">
