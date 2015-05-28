@@ -3,6 +3,7 @@
 <div class="main">
   <div class="container">
   <p>Editing page.php</p>
+  <p>testing</p>
     <div class="content">
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
