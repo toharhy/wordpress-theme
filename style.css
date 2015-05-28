@@ -1,9 +1,17 @@
 /*
+<<<<<<< HEAD
 Theme Name: Johar & Co. Theme
 Theme URI: http://hackeryou.com;
 Description: Starter theme for building any website. Created by HackerYou. Rename this to your own theme page.
 Version: 1.0
 Author: Johar 
+=======
+Theme Name: Johar & .Co Theme
+Theme URI: http://hackeryou.com;
+Description: Starter theme for building any website. Created by HackerYou. Rename this to your own theme page.
+Version: 1.0
+Author: Johar
+>>>>>>> 14de7378a51ba641e37f38b8c988378eb4699bac
 Author URI: http://hackeryou.com
 */
 
@@ -42,12 +50,6 @@ img.alignright    { padding-left: 5px; }
                    Default Styling
    ========================================================================== */
 
-.wrapper {
-  max-width: 100%;
-  background-color: white;
-
-
-}
 body {
   color:#333;
 }
@@ -61,12 +63,7 @@ body {
   float:left;
   width:65%;
   margin-right: 5%;
-  background-color: white;
 
-}
-
-img {
-  border-radius: 50px;
 }
 
 .full {
@@ -219,12 +216,6 @@ h3#comments-title { padding:24px 0; }
   font-size:12px;
   margin:0 0 5px;
 }
-
-.entry-utility {
-  border-bottom: 15px red solid;
-  border-top: 15px red solid;
-  padding: 20px;
-}
 .comment-meta a:link, .comment-meta a:visited {
   color:#888888;
   text-decoration:none;
@@ -309,6 +300,7 @@ p.form-allowed-tags, .nocomments { display:none; }
 }
 .comment-meta a:active, .comment-meta a:hover, .reply a:hover, a.comment-edit-link:hover { color:#ff4b33; }
 #respond p, #comments-list ul #respond { margin:0; }
+
 
 /* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
 
@@ -1856,3 +1848,4 @@ p.form-allowed-tags, .nocomments { display:none; }
   #main
   {
   }
+

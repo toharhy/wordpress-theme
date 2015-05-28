@@ -6,10 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php  wp_title('|', true, 'right'); ?></title>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-  
+
+
   <?php // Load our CSS ?>
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css" />
+
 
 
   <?php wp_head(); ?>
@@ -30,6 +31,7 @@
       'container' => false,
       'theme_locations' => 'primary'
     )); ?>
+<<<<<<< HEAD
   </div> <!-- /.container -->
 <!-- </header> -->
 
@@ -89,4 +91,3 @@
     </div>
   </div>
 </div>
-

@@ -2,18 +2,19 @@
 
 <div class="main">
   <div class="container">
-  
-    <div class="content beansPage">
-    <!-- first row begin -->
-    <div class="rowBeans">
-      <div class="triple">
-        <img src="" alt="">
-          <h3 class="beansTitle">Beans 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nostrum, dolor pariatur eveniet.</p>
-      </div>
-    </div>
 
-    
+    <div class="content beansPage">
+
+<!--     First Row begin-->        
+        <div class="rowBeans">
+              <div class="triple">
+                <img src="" alt="">
+                <h3 class="beansTitle">Beans Title</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+        </div>
+
+
 
 
       <?php // Start the loop ?>

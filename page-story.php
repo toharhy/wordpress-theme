@@ -4,13 +4,16 @@
   <div class="container">
   <p>Editing page.php</p>
     <div class="content">
-
-        <div class="oneColumn">
-          <h3>Title here</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa corrupti sequi mollitia non vel tempore minus. Tempore, temporibus dolorem accusamus.</p>
+      
+        <div class="four">
+          <img src="" alt="">
+        </div>
+        <div class="six">
+          <h3 class="storyTitle">Title here</h3>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsum dolorum necessitatibus! Nobis veritatis quis aperiam officia reprehenderit magni officiis eligendi odit, iusto quaerat voluptas culpa. Laborum ut odio vero.</p>
         </div>
 
-
+    </div> <!-- /,content -->
 
 
 
@@ -23,7 +26,6 @@
         <?php the_content(); ?>
 
       <?php endwhile; // end the loop?>
-    </div> <!-- /,content -->
 
     <?php get_sidebar(); ?>
 
