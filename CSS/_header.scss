@@ -1,10 +1,26 @@
-.navFull {
-	background-color: lightgrey;
-}
-// .navLeft {
-// 	background-color: red;
+// .navFull {
+// 	background-color: lightgrey;
 // }
+// // .navLeft {
+// // 	background-color: red;
+// // }
 
   .navFull {
   	display: flex;
+  	justify-items: flex-end;
   }
+
+.banner {
+	width: 100%;
+	display: block;
+	float:left;
+}
+
+.overlay h1 { 
+	color:red;
+}
+
+// .overlay {
+// 	position: fixed;
+// 	margin: 0 auto;
+// }

@@ -58,7 +58,8 @@
               <!-- nav end -->
 
               <div class="banner">
-                <img src="" alt="">
+                <img src="<?php bloginfo('template_directory') ?>/img/beansHead.jpg" alt="">
+              
               </div>
 
               <div class="overlay">
