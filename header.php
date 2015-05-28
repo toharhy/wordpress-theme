@@ -9,15 +9,7 @@
 
 
   <?php // Load our CSS ?>
-<<<<<<< HEAD
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-=======
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
-
-
->>>>>>> 70b942e2f40ba99f1aef5cda82b5750e60b5f248
-
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" /> 
 
   <?php wp_head(); ?>
