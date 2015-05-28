@@ -1,6 +1,10 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+    <h4 class="followUs">Follow Us</h4>
+    	<div class="socialIcon">Facebook | Twitter | Instagram</div>
+	    <p>&copy; Copyright Johar & Co. <?php echo date('Y'); ?></p>
+	    
+
   </div>
 </footer>
 
