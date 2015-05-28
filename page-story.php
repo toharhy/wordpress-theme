@@ -27,7 +27,7 @@
 
       <?php endwhile; // end the loop?>
 
-    <?php get_sidebar(); ?>
+    
 
   </div> <!-- /.container -->
 </div> <!-- /.main -->

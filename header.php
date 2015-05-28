@@ -52,11 +52,7 @@
           </div>
               <!-- nav right -->
           <div class="navRight">
-          <?php wp_nav_menu(array(
-                  'container' => 'nav',
-                  'container_id'=> 'nav',
-                  'theme_location'=>'primary'
-                  )); ?>
+          
           </div>
       </div>
               <!-- nav end -->
@@ -79,3 +75,5 @@
     </div>
   </div>
 </div>
+
+
