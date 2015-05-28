@@ -1,8 +1,10 @@
 .navFull {
-	background-color: blue;
+	background-color: lightgrey;
 }
 // .navLeft {
 // 	background-color: red;
 // }
 
-  
+  .navFull {
+  	display: flex;
+  }
